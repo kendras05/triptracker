@@ -1,5 +1,3 @@
 class Location < ApplicationRecord
-
-has_one :address
-
+    has_one :address
 end
