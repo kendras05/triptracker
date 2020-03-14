@@ -1,5 +1,3 @@
 class Address < ApplicationRecord
-
-  belongs_to :trips
-
+    belongs_to :location
 end
